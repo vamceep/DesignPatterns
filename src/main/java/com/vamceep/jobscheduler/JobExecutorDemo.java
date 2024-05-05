@@ -1,8 +1,9 @@
-package com.vamceep.jobscheduler.service;
+package com.vamceep.jobscheduler;
 
 import com.vamceep.jobscheduler.dto.Job;
 import com.vamceep.jobscheduler.enums.JobSchedulerType;
 import com.vamceep.jobscheduler.factory.SchedulerFactory;
+import com.vamceep.jobscheduler.service.JobExecutor;
 
 import java.util.List;
 
