@@ -1,4 +1,4 @@
-package com.vamceep.designpatterns.ratelimiterdemo.dto;
+package com.vamceep.ratelimiterdemo.dto;
 
 import lombok.Builder;
 import lombok.Getter;

@@ -1,6 +1,6 @@
-package com.vamceep.designpatterns.ratelimiterdemo.service;
+package com.vamceep.ratelimiterdemo.service;
 
-import com.vamceep.designpatterns.ratelimiterdemo.dto.RateLimitRule;
+import com.vamceep.ratelimiterdemo.dto.RateLimitRule;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
