@@ -30,7 +30,14 @@ public class SlidingWindowRateLimiter implements  IRateLimiter{
         }
         long currentTimeStamp = System.currentTimeMillis();
         long timeDuration =  (currentTimeStamp - queue.peek())/1000;
-        while(timeDuration > rateLimitRule.getWindowDurationSec() && !queue.isEmpty()) {
+        while(timeDuration > rateLimitRule.getWindowDurationSec()) {
+            queue.poll();
+            if(!queue.isEmpty()){
+                timeDuration =  (currentTimeStamp - queue.peek())/1000;
+            }
+            else {
+                break;
+            }
         }
     }
 }

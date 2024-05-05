@@ -20,7 +20,7 @@ public class HealthController {
             return ResponseEntity.ok().body("Service is up.");
         }
         else {
-            return ResponseEntity.badRequest().body("Bad request");
+            return ResponseEntity.status(429).build();
         }
     }
 }
