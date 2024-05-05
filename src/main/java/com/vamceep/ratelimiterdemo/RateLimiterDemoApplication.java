@@ -1,4 +1,4 @@
-package com.vamceep.designpatterns.ratelimiterdemo;
+package com.vamceep.ratelimiterdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

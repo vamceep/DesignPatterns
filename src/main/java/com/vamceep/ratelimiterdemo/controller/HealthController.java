@@ -1,6 +1,6 @@
-package com.vamceep.designpatterns.ratelimiterdemo.controller;
+package com.vamceep.ratelimiterdemo.controller;
 
-import com.vamceep.designpatterns.ratelimiterdemo.service.IdentificationService;
+import com.vamceep.ratelimiterdemo.service.IdentificationService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
